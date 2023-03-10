@@ -1,4 +1,4 @@
-package com.sfx.Config;
+package com.sfx.spring.theory.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

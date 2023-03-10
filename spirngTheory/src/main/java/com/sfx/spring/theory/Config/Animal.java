@@ -1,4 +1,4 @@
-package com.sfx.Config;
+package com.sfx.spring.theory.Config;
 
 
 import lombok.Getter;

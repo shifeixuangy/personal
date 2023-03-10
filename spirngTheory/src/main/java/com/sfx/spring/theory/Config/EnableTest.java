@@ -1,7 +1,5 @@
-package com.sfx;
+package com.sfx.spring.theory.Config;
 
-
-import com.sfx.Config.TestImportSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

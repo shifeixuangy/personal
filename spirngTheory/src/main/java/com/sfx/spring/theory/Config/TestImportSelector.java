@@ -1,4 +1,4 @@
-package com.sfx.Config;
+package com.sfx.spring.theory.Config;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;

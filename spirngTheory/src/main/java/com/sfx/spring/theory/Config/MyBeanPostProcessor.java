@@ -1,4 +1,4 @@
-package com.sfx.Config;
+package com.sfx.spring.theory.Config;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
