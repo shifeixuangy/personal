@@ -10,8 +10,10 @@
     <modules>
         <module>auth-security</module>
         <module>design</module>
-        <module>spirngTheory</module>
+        <module>springTheory</module>
+        <module>workFlow</module>
     </modules>
+
     <packaging>pom</packaging>
 
 
