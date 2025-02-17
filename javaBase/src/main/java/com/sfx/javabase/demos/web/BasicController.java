@@ -16,11 +16,14 @@
 
 package com.sfx.javabase.demos.web;
 
+import com.sfx.javabase.demos.web.utils.DateUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.Date;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
@@ -63,5 +66,18 @@ public class BasicController {
             , @RequestParam(name = "age", defaultValue = "12") Integer age, User user) {
         user.setName("zhangsan");
         user.setAge(18);
+    }
+
+    public static void main(String[] args) {
+        Date startDate = DateUtil.getYesterdayBegin();
+        //Date endDate = DateUtil.getYesterdayEnd();
+        Date endDate = new Date();
+        System.out.println(startDate.getTime()+"");
+
+        System.out.println(endDate.getTime()+"");
+
+        System.out.println(DateUtil.getFormatDate(startDate,"yyyy-MM-dd hh:mm:ss"));
+
+        System.out.println(DateUtil.getFormatDate(endDate,"yyyy-MM-dd hh:mm:ss"));
     }
 }

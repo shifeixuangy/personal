@@ -14,9 +14,10 @@
         <module>springTheory</module>
         <module>workFlow</module>
         <module>javaBase</module>
+        <module>sfx-common</module>
+        <module>websocket</module>
 
     </modules>
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,10 +25,6 @@
         <version>2.2.5.RELEASE</version>
         <relativePath/>
     </parent>
-
-
-
-
 
 
     <properties>
